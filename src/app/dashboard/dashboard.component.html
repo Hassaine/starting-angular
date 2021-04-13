@@ -1,0 +1,17 @@
+
+<h2>Top Heroes</h2>
+
+
+<div class="heroes-menu">
+  <a *ngFor="let hero of heroes"  routerLink="/detail/{{hero.id}}">
+    {{hero.name}}
+  </a>
+  <div class="jumbotron" style="background-color: #fff; height: calc(95vh);">
+    <h1>Angular Bootstrap Demo</h1>
+    <p class="lead">
+      This demo shows how to integrate Bootstrap 4 with Angular 7  
+    </p>
+    <a class="btn btn-lg btn-primary" href="" role="button">View tutorial</a>
+  </div>
+  
+</div>
